@@ -20,4 +20,4 @@ def video_feed():
 
 if __name__ == '__main__':
     threading.Thread(target=detect_and_alert).start()
-    app.run(host='0.0.0.0', port=8081, debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
